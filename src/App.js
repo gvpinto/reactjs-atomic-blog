@@ -11,8 +11,8 @@ function createRandomPost() {
 
 function App() {
 
-    const postContext = usePosts();
-    console.log(postContext);
+    // const postContext = usePosts();
+    // console.log(postContext);
 
     const [isFakeDark, setIsFakeDark] = useState(false);
 
