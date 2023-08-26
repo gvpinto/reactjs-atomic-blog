@@ -52,9 +52,9 @@ function App() {
     const archiveOptions = useMemo(() => {
         return {
             show: false,
-            title: `Archived Posts in addition to main posts`
+            title: `Archived Posts in addition to ${posts.length} main posts`
         };
-    }, []);
+    }, [posts.length]);
 
     return (
         <section>
